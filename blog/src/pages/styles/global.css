@@ -1,0 +1,84 @@
+:root{
+    --green: #5ea832;
+    --fbBlue: #316FF6;
+    --linkedIn: #0077b5;
+    --twitter: #36d8ff;
+    --eggwhite:#fffdfa;
+    --charcoal: #9f9fbf;
+}
+
+.blogImg{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid var(--fbBlue);
+}
+
+.blogContainer:hover{
+    background: rgb(255,255,255);
+background: linear-gradient(12deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 59%);
+}
+
+.blogContainer{
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 6px rgba(187, 187, 187, 1);
+    background-color: var(--eggwhite);
+}
+
+.blogDesc{
+    text-align: center;
+}
+
+.iconFA {
+    width: 30px;
+    margin: 1em;
+    color: white;
+}
+
+#faFaceBook:hover {
+    color: var(--fbBlue);
+}
+
+#faLinkedIn:hover {
+    color: var(--linkedIn);
+}
+
+#faTwitter:hover {
+    color: var(--twitter);
+}
+
+#footerStyle{
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#homeTitle{
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.mainImg{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 5px solid var(--fbBlue);
+}
+
+.mainTitle{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.spinning{
+    transition: all 3s ease-in-out;
+}
+
+.spinning:hover{
+    transform: rotate(360deg);
+}
